@@ -1,0 +1,40 @@
+<component>
+    <previews>
+        <preview name="MainCompView" width="576" height="185" style_bg_color="0x000000"/>
+    </previews>
+    <consts>
+        <int name="w_size" value="576"/>
+        <int name="h_size" value="185"/>
+        <int name="mv_size" value="172"/>
+        <int name="wi_size" value="200"/>
+        <int name="wi_height" value="200"/>
+        <int name="wd_size" value="200"/>
+        <int name="wd_height" value="200"/>
+        <int name="wdrop_size" value="20"/>
+    </consts>
+    <view extends="lv_obj" width="#w_size" height="#h_size" flex_flow="row" style_pad_all="0" style_border_width="0" style_flex_main_place="start" scrollable="false">
+        <style name="BlackView"/>
+        <lv_obj width="#wi_size" height="185" flex_flow="column" style_flex_main_place="center" scrollable="false">
+            <style name="BlackView" />
+            <lv_image name="MainWeatherIcon" src="clear_day" width="200" height="200" inner_align="stretch" style_border_width="0" style_line_width="0" style_pad_all="0"/>
+        </lv_obj>
+        <lv_obj x="95" y="0" height="#wi_height" width="#mv_size" flex_flow="row" style_flex_main_place="center" scrollable="false">
+            <style name="BlackView"/>
+            <lv_label name="MainWeatherDesc" bind_text="s_main_weather_descr" style_text_align="right" style_text_font="MartianMono_Regular_16"/>
+            <lv_label name="MainTemperature" bind_text="s_main_temperature" align="center" flex_in_new_track="true" style_text_font="MartianMono_Regular_42"/>
+            <lv_label name="MainTempFC" bind_text="s_main_temp_fc" style_text_align="left" flex_in_new_track="true" style_text_font="MartianMono_Regular_20"/>
+            <lv_obj height="content" width="200" flex_in_new_track="true" scrollable="false" flex_flow="row" style_flex_main_place="center">
+                <style name="BlackView"/>
+                <lv_label name="MainHumidity" bind_text="s_main_humidity" style_text_align="center" style_text_font="MartianMono_Regular_16"/>
+                <lv_image src="water_drop" width="#wdrop_size" height="#wdrop_size" inner_align="stretch" style_border_width="0" style_line_width="0" style_pad_all="0"/>
+                <lv_label name="MainRainFC" bind_text="s_main_rain_fc" style_text_align="center" style_text_font="MartianMono_Regular_16"/>
+            </lv_obj>
+            <lv_label name="MainPressure" bind_text="s_main_pressure" style_text_align="center" flex_in_new_track="true" style_text_font="MartianMono_Regular_16"/>
+        </lv_obj>
+        <lv_obj x="0" y="0" height="#wi_height" width="#wd_size">
+            <style name="BlackView"/>
+            <lv_image name="MainWindDirectionIcon" src="wind_ne" x="0" y="-27" width="#wd_size" height="#wd_height" inner_align="stretch" style_border_width="0" style_line_width="0" style_pad_all="0"/>
+            <lv_label name="MainWindSpeed" width="#wd_size" x="68" y="153" bind_text="s_main_wind_speed" flex_in_new_track="true" style_text_font="MartianMono_Regular_16"/>
+        </lv_obj>
+    </view>
+</component>
