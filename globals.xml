@@ -9,18 +9,177 @@
 
 	<styles>
 		<!-- Add <style> tags here -->
+		<style
+			name="BlackView"
+			bg_color="0x000000"
+			text_color="0xffffff"
+			border_width="0"
+			outline_width="0"
+			pad_all="0"
+			outline_pad="0"
+		/>
 	</styles>
 
-	<subjects>
-		<!-- Add <int>, <string>, or <float> subjects here -->
-	</subjects>
-
 	<images>
-		<!-- Add <file> or <data> tags here -->
+		<!-- Moon phase images -->
+		<data name="m_phase_0" src_path="images/moon/m-phase-0.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_1" src_path="images/moon/m-phase-1.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_2" src_path="images/moon/m-phase-2.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_3" src_path="images/moon/m-phase-3.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_4" src_path="images/moon/m-phase-4.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_5" src_path="images/moon/m-phase-5.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_6" src_path="images/moon/m-phase-6.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_7" src_path="images/moon/m-phase-7.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_8" src_path="images/moon/m-phase-8.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_9" src_path="images/moon/m-phase-9.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_10" src_path="images/moon/m-phase-10.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_11" src_path="images/moon/m-phase-11.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_12" src_path="images/moon/m-phase-12.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_13" src_path="images/moon/m-phase-13.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_15" src_path="images/moon/m-phase-15.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_14" src_path="images/moon/m-phase-14.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_16" src_path="images/moon/m-phase-16.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_17" src_path="images/moon/m-phase-17.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_18" src_path="images/moon/m-phase-18.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_19" src_path="images/moon/m-phase-19.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_20" src_path="images/moon/m-phase-20.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_21" src_path="images/moon/m-phase-21.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_22" src_path="images/moon/m-phase-22.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_23" src_path="images/moon/m-phase-23.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_24" src_path="images/moon/m-phase-24.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_25" src_path="images/moon/m-phase-25.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_26" src_path="images/moon/m-phase-26.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_27" src_path="images/moon/m-phase-27.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_28" src_path="images/moon/m-phase-28.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_29" src_path="images/moon/m-phase-29.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_30" src_path="images/moon/m-phase-30.png" file_format="png" color_format="rgb565" />
+		<data name="m_phase_31" src_path="images/moon/m-phase-31.png" file_format="png" color_format="rgb565" />
+
+		<!-- weather icons -->
+		<data name="clear_day" src_path="images/weather/clear-day.png" file_format="png" color_format="rgb565" />
+		<data name="clear_night" src_path="images/weather/clear-night.png" file_format="png" color_format="rgb565" />
+		<data name="cloudy" src_path="images/weather/cloudy.png" file_format="png" color_format="rgb565" />
+		<data name="drizzle" src_path="images/weather/drizzle.png" file_format="png" color_format="rgb565" />
+		<data name="extreme_rain" src_path="images/weather/extreme-rain.png" file_format="png" color_format="rgb565" />
+		<data name="fog" src_path="images/weather/fog.png" file_format="png" color_format="rgb565" />
+		<data name="light_rain" src_path="images/weather/light-rain.png" file_format="png" color_format="rgb565" />
+		<data name="n_a" src_path="images/weather/n_a.png" file_format="png" color_format="rgb565" />
+		<data
+			name="partly_cloudy_day"
+			src_path="images/weather/partly-cloudy-day.png"
+			file_format="png"
+			color_format="rgb565"
+		/>
+		<data
+			name="partly_cloudy_night"
+			src_path="images/weather/partly-cloudy-night.png"
+			file_format="png"
+			color_format="rgb565"
+		/>
+		<data name="rain" src_path="images/weather/rain.png" file_format="png" color_format="rgb565" />
+		<data name="sleet" src_path="images/weather/sleet.png" file_format="png" color_format="rgb565" />
+		<data name="snow" src_path="images/weather/snow.png" file_format="png" color_format="rgb565" />
+		<data name="thunderstorm" src_path="images/weather/thunderstorm.png" file_format="png" color_format="rgb565" />
+		<data name="unknown" src_path="images/weather/unknown.png" file_format="png" color_format="rgb565" />
+
+		<!-- wind direction -->
+		<data name="wind_e" src_path="images/wind/E.png" file_format="png" color_format="rgb565" />
+		<data name="wind_n" src_path="images/wind/N.png" file_format="png" color_format="rgb565" />
+		<data name="wind_ne" src_path="images/wind/NE.png" file_format="png" color_format="rgb565" />
+		<data name="wind_nw" src_path="images/wind/NW.png" file_format="png" color_format="rgb565" />
+		<data name="wind_s" src_path="images/wind/S.png" file_format="png" color_format="rgb565" />
+		<data name="wind_se" src_path="images/wind/SE.png" file_format="png" color_format="rgb565" />
+		<data name="wind_sw" src_path="images/wind/SW.png" file_format="png" color_format="rgb565" />
+		<data name="wind_w" src_path="images/wind/W.png" file_format="png" color_format="rgb565" />
+
+		<!-- other -->
+		<data
+			name="water_drop"
+			src_path="images/other/water-droplet-icon.png"
+			file_format="png"
+			color_format="rgb565"
+		/>
 	</images>
 
 	<fonts>
-		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-		<bin name="font_medium" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="20" bpp="4" />
+		<bin
+			name="MartianMono_Regular_14"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="14"
+			bpp="1"
+		/>
+		<bin
+			name="MartianMono_Regular_16"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="16"
+			bpp="1"
+		/>
+		<bin
+			name="MartianMono_Regular_18"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="18"
+			bpp="1"
+		/>
+		<bin
+			name="MartianMono_Regular_20"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="20"
+			bpp="1"
+		/>
+		<bin
+			name="MartianMono_Regular_42"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="42"
+			bpp="1"
+		/>
+		<bin
+			name="MartianMono_Regular_46"
+			src_path="fonts/MartianMono-Regular.ttf"
+			range="0x20-0x7f"
+			symbols="°äöü"
+			as_file="false"
+			size="46"
+			bpp="1"
+		/>
 	</fonts>
+
+	<subjects>
+		<string name="s_dt_dayName" value="Freitag" />
+		<string name="s_dt_date" value="18.08.1966" />
+		<string name="s_dt_time" value="14:58:10" />
+		<string name="s_main_weather_descr" value="Sonne und Wolken" />
+		<string name="s_main_temperature" value="---" />
+		<string name="s_main_temp_fc" value="13/21°C" />
+		<string name="s_main_humidity" value="Lf 83%" />
+		<string name="s_main_pressure" value="1024 hPa" />
+		<string name="s_main_rain_fc" value="45%" />
+		<string name="s_main_wind_speed" value="2.6 m/s" />
+		<string name="s_sun_rise" value="05:28" />
+		<string name="s_sun_set" value="21:30" />
+		<string name="s_moon_rise" value="00:21" />
+		<string name="s_moon_set" value="07:05" />
+		<string name="s_fc_dayName" value="Dienstag" />
+		<string name="s_fc_temperature" value="12/22°C" />
+		<string name="s_fc_rain" value="100%" />
+		<string name="s_indoor_label" value="Innen" />
+		<string name="s_indoor_humidity_label" value="Luftfeuchte:" />
+		<string name="s_indoor_humidity_value" value="51%" />
+		<string name="s_indoor_temp_label" value="Temperatur:" />
+		<string name="s_indoor_temp_value" value="21.1°C" />
+	</subjects>
 </globals>
