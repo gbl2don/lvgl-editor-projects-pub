@@ -19,11 +19,16 @@
 	</styles>
 	<view width="800" height="480" scrollable="false">
 		<style name="BlackView" />
-		<DateTimeComp x="0" y="8" />
-		<MainComp x="0" y="108" />
-		<MoonComp x="576" y="100" />
-		<IndoorComp x="576" y="8" />
-		<lv_obj x="0" y="100" width="800">
+		<DateTimeComp x="0" y="0" />
+		<MainComp x="0" y="100" />
+		<MoonComp x="576" y="0" />
+		<WeatherFCComp name="FC1" x="0" y="290" />
+		<WeatherFCComp name="FC2" x="133" y="290" />
+		<WeatherFCComp name="FC3" x="267" y="290" />
+		<WeatherFCComp name="FC4" x="400" y="290" />
+		<WeatherFCComp name="FC5" x="534" y="290" />
+		<WeatherFCComp name="FC6" x="667" y="290" />
+		<lv_obj x="0" y="100" width="576">
 			<style name="H_Line" />
 		</lv_obj>
 		<lv_obj x="576" y="0" height="285">
