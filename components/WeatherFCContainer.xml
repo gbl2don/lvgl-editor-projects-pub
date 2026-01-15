@@ -2,7 +2,7 @@
 	<previews>
 		<preview name="WeatherFCContainerView" width="800" height="205" style_bg_color="0x000000" />
 	</previews>
-	<view extends="lv_obj" width="800" height="480" scrollable="false">
+	<view extends="lv_obj" width="800" height="205" scrollable="false">
 		<style name="BlackView" />
 		<WeatherFCComp name="FC1" x="0" y="0" />
 		<WeatherFCComp name="FC2" x="133" y="0" />
