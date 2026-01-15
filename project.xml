@@ -1,4 +1,4 @@
-<project name="ui_hello_world">
+<project>
 	<targets>
 		<target name="target1">
 			<display width="800" height="480" />
