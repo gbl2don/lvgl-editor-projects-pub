@@ -1,4 +1,4 @@
-<project name="weatherstation">
+<project>
 	<targets>
 		<target name="target1">
 			<display width="800" height="480" />
