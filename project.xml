@@ -1,7 +1,7 @@
 <project name="weatherstation">
 	<targets>
 		<target name="target1">
-			<display width="800" height="480" color_format="rgb565" />
+			<display width="800" height="480" />
 		</target>
 	</targets>
 </project>
